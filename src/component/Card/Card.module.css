@@ -14,10 +14,10 @@
 }
 
 .score {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
-    font-weight: 700;
     color: black;
+    font-weight: bold;
 }
 
 
@@ -144,15 +144,12 @@
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
-                padding: 50px 40px;
-                background-color: rgba(23, 23, 34, 0.403);
+                padding: 40px 40px;
+                background-color: whitesmoke;
                 border-radius: 20px;
                 gap: 15px;
                 max-width: 100%;
                 width: 100%;
-                backdrop-filter: blur(8px);
-                box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.103), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                transition: 0.7s;
             }
 }
 
@@ -164,22 +161,13 @@
             align-items: center;
             justify-content: center;
             padding: 50px 20px;
-            background-color: rgba(23, 23, 34, 0.018);
+            background-color: whitesmoke;
             border-radius: 20px;
             gap: 15px;
             max-width:100%;
             width: 100%;
-            backdrop-filter: blur(8px);
-            box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.103), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            transition: 0.7s;
         }
-    
-        .score {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            font-weight: 700;
-            color: white;
-        }
+
     
     
         .apptitle {
@@ -191,6 +179,7 @@
             background-size: 300%;
             background-position: -100%;
             animation: identifier 5s infinite alternate-reverse;
+            text-align: center;
         }
     
         @keyframes identifier {
@@ -236,10 +225,6 @@
             transition: 0.3s;
         }
     
-        .newgamebutton {
-            background-color: #4CAF50;
-            color: white;
-        }
     
         .endgamebutton {
             background-color: #f44336;
