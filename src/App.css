@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(-45deg, #49291f, #481749, #1f3a43, #183a32);
+  background-color: white;
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   height: 100vh;
@@ -16,19 +16,6 @@ body {
 }
 
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
-  }
-}
 
 @media screen and (max-width: 1440px) {
   body {
