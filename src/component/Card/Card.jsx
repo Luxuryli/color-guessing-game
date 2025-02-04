@@ -56,8 +56,6 @@ const Card = () => {
     } else {
       setStatusMessage('Wrong! Game Over');
       setIsGameOver(true);
-
-      // Automatically reset the game after 3 seconds
       setTimeout(() => {
         resetGame();
       }, 3000);
@@ -73,8 +71,6 @@ const Card = () => {
 
   const endGame = () => {
     setIsGameOver(true);
-
-    // Automatically reset after 3 seconds when ending the game
     setTimeout(() => {
       resetGame();
     }, 3000);
